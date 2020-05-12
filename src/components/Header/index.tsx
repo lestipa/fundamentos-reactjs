@@ -15,9 +15,15 @@ const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => (
     <header>
       <img src={Logo} alt="GoFinances" />
       <nav>
-        {
-          // Todo
-        }
+        {/* TODO => DONE! */}
+        <>
+          <Link key="Listagem" to="/">
+            Listagem
+          </Link>
+          <Link key="Importar" to="/import">
+            Importar
+          </Link>
+        </>
       </nav>
     </header>
   </Container>
